@@ -118,7 +118,7 @@ public class Sale {
         {
             addNewItemToSale(itemDTO);
         }
-        else{
+        else if (itemDTO.getName() != null){
             addSameItemToSale(itemDTO);
         }
     }
